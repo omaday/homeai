@@ -1,10 +1,13 @@
 # homeai
 
-
+#############################################
 运行大模型程序
 python homeai.py
 运行自动控制程序
 python fuzz.py
+##############################################
+
+安装依赖库
 
 修改swap分区配置（树莓派2G版本，其他版本可以忽略）
 sudo nano /etc/dphys-swapfile
@@ -186,3 +189,13 @@ print(“简体格式：”, simplified_result)
 然后安装
 pip3 install ollama
 测试不要用ollama.py命名
+
+天气预测依赖库
+pip install pandas scikit-learn statsmodels
+
+自动化模糊控制依赖库
+import numpy as np
+import skfuzzy as fuzz
+from skfuzzy import control as ctrl
+
+
