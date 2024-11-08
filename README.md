@@ -131,7 +131,7 @@ jack server is not running or cannot be started
 
 apt-get install -y jackd2
  
-# pulseaudio --kill关闭 --start启动
+#pulseaudio --kill关闭 --start启动
 jack_control start #启动 status查看状态 exit退出
 安装jackd2后重启一下，否则可能出现--问题2
 
@@ -183,7 +183,7 @@ import opencc
 cc = opencc.OpenCC(“t2s”)
 simplified_result = cc.convert('漢字')  
 print(“简体格式：”, simplified_result)
-# 输出结果为 简体格式：汉字
+#输出结果为 简体格式：汉字
 
 
 安装本地大模型，推荐qwen0.5b
