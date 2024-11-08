@@ -1,8 +1,10 @@
 # homeai
 
 
-运行主程序
+运行大模型程序
 python homeai.py
+运行自动控制程序
+python fuzz.py
 
 修改swap分区配置（树莓派2G版本，其他版本可以忽略）
 sudo nano /etc/dphys-swapfile
